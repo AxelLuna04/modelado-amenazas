@@ -1475,12 +1475,1247 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.5.0",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 490,
+              "y": 240
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Controlador\nWeb"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6234c575-e8a7-457f-89cc-4400e7eed966"
+                },
+                {
+                  "group": "right",
+                  "id": "6b17ca57-d521-4fc4-a5fd-ba3dc5f2ed94"
+                },
+                {
+                  "group": "bottom",
+                  "id": "2da1eedd-064f-49a1-b3fe-521f68d80aed"
+                },
+                {
+                  "group": "left",
+                  "id": "127a3497-53d3-4c9c-b893-882ed4499260"
+                }
+              ]
+            },
+            "id": "91c82c62-5130-4d20-bdeb-ebeea788803b",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Process",
+              "name": "Controlador\nWeb",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "071c4293-ba23-4eb6-9147-b3f88302777d",
+                  "title": "Denegación  de servicio ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Un atacante podría denegar \nel acceso a usuarios válidos, \nhaciendo que el servidor \nweb no esté disponible o sea \ninutilizable temporalmente \npor medio del envío de \nmúltiples peticiones \nsimultaneas. ",
+                  "mitigation": "Se utiliza un balanceo \nde cargas en el servidor \nweb. \nSe monitorean las \ndirecciones IP de los \nclientes y al encontrar \nun posible ataque, se \nbloquea el acceso. \nSe considera contratar \nun servicio de VPN \npara ocultar la \ndirección IP pública a \nlos clientes. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 810,
+              "y": 170
+            },
+            "size": {
+              "width": 100,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Proceso\nde login"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6234c575-e8a7-457f-89cc-4400e7eed966"
+                },
+                {
+                  "group": "right",
+                  "id": "6b17ca57-d521-4fc4-a5fd-ba3dc5f2ed94"
+                },
+                {
+                  "group": "bottom",
+                  "id": "2da1eedd-064f-49a1-b3fe-521f68d80aed"
+                },
+                {
+                  "group": "left",
+                  "id": "127a3497-53d3-4c9c-b893-882ed4499260"
+                }
+              ]
+            },
+            "id": "a0018516-1bce-4f58-b2eb-f37c14d9843e",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Proceso\nde login",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "a7a396ae-5ee5-4552-9a4d-764ea724535a",
+                  "title": "Ataque de  fuerza bruta ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Un atacante podría realizar \nun ataque con un \ndiccionario para tratar de \nadivinar la contraseña de los \nusuarios.",
+                  "mitigation": "Se deben bloquear la \ncuenta después de N \nintentos fallidos. \nSe deben validar la \ncomplejidad y longitud \nde las contraseñas. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 110,
+              "y": 200
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Usuarios"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "4c7b3134-3f81-47ac-839a-5307a63189b0"
+                },
+                {
+                  "group": "right",
+                  "id": "cfc0b46b-909b-434f-8a08-fbab486fc469"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8e33855a-12e2-43ee-b1ca-116f33951e91"
+                },
+                {
+                  "group": "left",
+                  "id": "abbe0a81-9986-4e89-bb4a-6b4c29765f39"
+                }
+              ]
+            },
+            "id": "47c981b8-dd60-4465-9289-20d23182b496",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Usuarios",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": false,
+              "threats": [
+                {
+                  "id": "18141834-e540-4f89-a651-a72228bcd88e",
+                  "title": "Suplantación  de identidad ",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Spoofing",
+                  "description": "Acción de amenaza \ndestinada a acceder y \nutilizar las credenciales de \notro usuario, como el \nnombre de usuario y la \ncontraseña. ",
+                  "mitigation": "1. Autenticación \nadecuada \n2. Proteger datos \nsecretos \n3. No almacenar \nsecretos ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 250,
+              "y": 450
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Paginas Web en Disco"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "fb00ea59-5743-4bed-bf55-f027cf63e657"
+                },
+                {
+                  "group": "right",
+                  "id": "12f81459-ebd3-41de-a2a5-438528f7ca9a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4a63ad4b-d8a6-41a3-af5a-84c50c5b7b07"
+                },
+                {
+                  "group": "left",
+                  "id": "a1b2f325-bede-472a-9339-2be4829f3455"
+                }
+              ]
+            },
+            "id": "3dda61ed-a700-41ba-bd04-7382540c7240",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "Paginas Web en Disco",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "5a085f56-48cf-487f-831a-372f1872db62",
+                  "title": "Modificación  sin  autorización",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Un atacante podría \nmodificar las páginas web \nsin autorización.",
+                  "mitigation": "Las páginas solo tienen \nacceso de lectura. \nÚnicamente el usuario \nadministrador puede \ntener acceso de \nescritura. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 950,
+              "y": 480
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Base de Datos"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "fb00ea59-5743-4bed-bf55-f027cf63e657"
+                },
+                {
+                  "group": "right",
+                  "id": "12f81459-ebd3-41de-a2a5-438528f7ca9a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4a63ad4b-d8a6-41a3-af5a-84c50c5b7b07"
+                },
+                {
+                  "group": "left",
+                  "id": "a1b2f325-bede-472a-9339-2be4829f3455"
+                }
+              ]
+            },
+            "id": "37b225b8-dd98-459e-9abc-96e04d6f869f",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Store",
+              "name": "Base de Datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "24fba2ed-6563-4ad5-bab9-6aedd2768fb4",
+                  "title": "Acceso no  autorizado ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Un atacante podría enviar \nuna consulta a la BD.",
+                  "mitigation": "Requerir que todas las \nconsultas sean \nautenticadas.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
+                },
+                {
+                  "id": "017d3dc6-ad75-423a-bda7-82b1b5b8ee93",
+                  "title": "Robo de  credenciales ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría obtener \nlas credenciales de la base \nde datos y utilizarlas para \nrealizar consultas no \nautorizadas.",
+                  "mitigation": "Un atacante podría obtener \nlas credenciales de la base \nde datos y utilizarlas para \nrealizar consultas no \nautorizadas.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Web Response",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "937398df-4dc1-4e23-b21e-16117764708f",
+                  "title": "El flujo de  datos debe  utilizar  HTTP/S ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas respuestas se \ntransmiten a traves de la \nInternet pública y podrían \nser interceptadas por un \natacante.",
+                  "mitigation": "Las respuestas \ndeberian requerir \nHTTPS/S. Esto \nproporcionara \nconfidencialidad e \nintegridad. HTTP no \ndebe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Web Response"
+            ],
+            "id": "94cbc409-35cc-424c-87cb-115e257db858",
+            "source": {
+              "cell": "91c82c62-5130-4d20-bdeb-ebeea788803b",
+              "port": "6234c575-e8a7-457f-89cc-4400e7eed966"
+            },
+            "target": {
+              "cell": "47c981b8-dd60-4465-9289-20d23182b496",
+              "port": "4c7b3134-3f81-47ac-839a-5307a63189b0"
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": "4 3"
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Vistas",
+              "description": "",
+              "outOfScope": true,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Vistas"
+            ],
+            "id": "8610d478-2e64-4dfe-8b2a-8b48d1115558",
+            "source": {
+              "cell": "3dda61ed-a700-41ba-bd04-7382540c7240",
+              "port": "fb00ea59-5743-4bed-bf55-f027cf63e657"
+            },
+            "target": {
+              "cell": "91c82c62-5130-4d20-bdeb-ebeea788803b",
+              "port": "2da1eedd-064f-49a1-b3fe-521f68d80aed"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "UsuarioAutenticadoResultado()",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "UsuarioAutenticadoResultado()"
+            ],
+            "id": "29ce2a1e-274c-40fc-a1f0-2d8e4291707c",
+            "source": {
+              "cell": "a0018516-1bce-4f58-b2eb-f37c14d9843e",
+              "port": "6234c575-e8a7-457f-89cc-4400e7eed966"
+            },
+            "target": {
+              "cell": "91c82c62-5130-4d20-bdeb-ebeea788803b",
+              "port": "6234c575-e8a7-457f-89cc-4400e7eed966"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "UsuarioAutenticado\nSQL Query Resultado",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "cdf35b88-ac97-4e1e-a71e-2b246960fc8e",
+                  "title": "Ataque Man  in the middle ",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría \ninterceptar las consultas de \nla base de datos en tránsito \ny obtener información \nconfidencial, como \ncredenciales de la base de \ndatos, parámetros de \nconsulta o resultados de laconsulta (es poco probable \nya que el flujo de datos se \nrealiza a través de una red \nprivada). ",
+                  "mitigation": "Aplicar una conexión \ncifrada en el servidor \nde base de datos. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "UsuarioAutenticado\nSQL Query Resultado"
+            ],
+            "id": "ab8d8978-62a3-48a1-b7a5-aa0d7c6d8401",
+            "source": {
+              "cell": "37b225b8-dd98-459e-9abc-96e04d6f869f",
+              "port": "fb00ea59-5743-4bed-bf55-f027cf63e657"
+            },
+            "target": {
+              "cell": "a0018516-1bce-4f58-b2eb-f37c14d9843e",
+              "port": "6b17ca57-d521-4fc4-a5fd-ba3dc5f2ed94"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Usuario/Web\nServer limite",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Usuario/Web\nServer limite"
+            ],
+            "id": "a08f87a9-b7c3-41a7-abb4-3078e6cd0978",
+            "source": {
+              "x": 220,
+              "y": 100
+            },
+            "target": {
+              "x": 220,
+              "y": 360
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 130
+              },
+              {
+                "x": 280,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Limite\nWeb Server/DB",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Limite\nWeb Server/DB"
+            ],
+            "id": "326d6529-c5a8-40c9-9c70-1fc01c891b8a",
+            "source": {
+              "x": 1120,
+              "y": 380
+            },
+            "target": {
+              "x": 864,
+              "y": 610
+            },
+            "vertices": [
+              {
+                "x": 930,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Web Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "c959a7a5-3d11-46b8-a8ea-1e9e93c6fade",
+                  "title": "El flujo de  datos debe  utilizar  HTTP/S ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Estas solicitudes se \ntransmiten a través de la \nInternet pública y podrían \nser interceptadas por un \natacante. ",
+                  "mitigation": "Las solicitudes \ndeberían requerir \nHTTPS/S. Esto \nproporcionara \nconfidencialidad e \nintegridad. HTTP no \ndebe ser compatible. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Web Request"
+            ],
+            "id": "e69e1c51-b84e-4a66-b841-62a5876caee3",
+            "source": {
+              "cell": "47c981b8-dd60-4465-9289-20d23182b496",
+              "port": "8e33855a-12e2-43ee-b1ca-116f33951e91"
+            },
+            "target": {
+              "cell": "91c82c62-5130-4d20-bdeb-ebeea788803b",
+              "port": "2da1eedd-064f-49a1-b3fe-521f68d80aed"
+            },
+            "vertices": [
+              {
+                "x": 260,
+                "y": 325
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "UsuarioAutenticado()",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "56d8d5e0-e4fb-4158-ae6b-30ad4851d039",
+                  "title": "Inyección de  código ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Un atacante podría enviar \nuna entrada inyectando \ncódigo malicioso para \nintentar obtener privilegios. ",
+                  "mitigation": "1. Se aplican \nverificaciones de tipo, \nformato, longitud y \nrango de datos. \n2. Todos los datos \nenviados desde el \ncliente se validan. \n3. Ninguna decisión de \nseguridad se basa en \nparámetros (por \nejemplo, parámetros de \nURL) que se pueden \nmanipular \n. 4. Filtrado de entrada \nmediante validación de \nlista de permitidos. se \nutiliza \n5. Se utiliza \ncodificación de salida ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "UsuarioAutenticado()"
+            ],
+            "id": "04873cc2-3ac4-470c-8fd0-d6638005c98e",
+            "source": {
+              "cell": "91c82c62-5130-4d20-bdeb-ebeea788803b",
+              "port": "6b17ca57-d521-4fc4-a5fd-ba3dc5f2ed94"
+            },
+            "target": {
+              "cell": "a0018516-1bce-4f58-b2eb-f37c14d9843e",
+              "port": "2da1eedd-064f-49a1-b3fe-521f68d80aed"
+            },
+            "vertices": [
+              {
+                "x": 700,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Usuario Autenticado\nSQL Query",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "9062b99f-abb3-4366-854e-e83927e05f16",
+                  "title": "Ataque Man  in the middle",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría \ninterceptar las consultas de \nla base de datos en tránsito \ny obtener información \nconfidencial, como \ncredenciales de la base de \ndatos, parámetros de \nconsulta o resultados de la \nconsulta (es poco probable \nya que el flujo de datos se \nrealiza a través de una red \nprivada). ",
+                  "mitigation": "Aplicar una conexión \ncifrada en el servidor \nde base de datos. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Usuario Autenticado\nSQL Query"
+            ],
+            "id": "db5ce5b8-0fa6-4fd8-9bd6-c9c1e2dae27a",
+            "source": {
+              "cell": "91c82c62-5130-4d20-bdeb-ebeea788803b",
+              "port": "2da1eedd-064f-49a1-b3fe-521f68d80aed"
+            },
+            "target": {
+              "cell": "37b225b8-dd98-459e-9abc-96e04d6f869f",
+              "port": "a1b2f325-bede-472a-9339-2be4829f3455"
+            },
+            "vertices": [
+              {
+                "x": 680,
+                "y": 440
+              }
+            ]
+          }
+        ],
         "description": "Diagrama de flujo de datos de inicio de sesión del usuario para el sitio web de la biblioteca universitaria."
       }
     ],
     "diagramTop": 2,
     "reviewer": "Guillermo Vera",
-    "threatTop": 13
+    "threatTop": 24
   }
 }
